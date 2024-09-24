@@ -1,4 +1,4 @@
-Mars Rover Simulation
+**Mars Rover Simulation**
 
 Table of Contents
 - Project Overview
@@ -8,15 +8,15 @@ Table of Contents
 - Code Structure
 - Design Patterns
 
-Project Overview
+**Project Overview**
 
 - The Mars Rover Simulation is a simple Java application that simulates a rover navigating a grid on Mars. The rover can move forward, turn left, turn right, and detect obstacles. This project demonstrates the use of several design patterns, including the Command Pattern and Singleton Pattern.
 
-Technologies
+**Technologies**
 
 - Java (version 8 or higher)
 
-Installation
+**Installation**
 
 - Step 1: Clone the Repository
 
@@ -40,22 +40,12 @@ Step 4: Run the Program
 
     java MarsRoverSimulation
 
-Usage
+
+**Usage**
 
 - Once the program is running, the rover will execute a series of commands to move forward, turn, and display its position. You can modify the commands or grid configuration directly in the `MarsRoverSimulation.java` file.
 
-Example Output:
-
-Rover moved to: (0, 1)
-Rover moved to: (0, 2)
-Rover facing: E
-Rover moved to: (1, 2)
-Rover moved to: (2, 2)
-------------------------------------------------------------
-Final Position and Direction
-Rover is at: (2, 2) facing E
-
-Code Structure
+**Code Structure**
 
 Here is a brief explanation of the main classes:
 
@@ -78,7 +68,7 @@ Here is a brief explanation of the main classes:
    - TurnRightCommand: Rotates the rover 90 degrees to the right.
    - GetPositionCommand: Prints the rover's current position and direction.
 
-Design Patterns
+**Design Patterns**
 
 1. Command Pattern
 
